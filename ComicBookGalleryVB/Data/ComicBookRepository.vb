@@ -5,7 +5,7 @@ Namespace Data
         Private Shared _comicBooks As ComicBook() = New ComicBook() {New ComicBook() With
                 {
                     .Id = 1,
-                    .SeriesTitle = "The Amazing Spider-Man",
+                    .SeriesTitle = "The Amazing Spider-Man' Marco",
                     .IssueNumber = 700,
                     .DescriptionHtml = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives...<strong>will Peter Parker?</strong></p>",
                     .Artists = New Artist() {New Artist() With {.Name = "Dan Slott", .Role = "Script"},
