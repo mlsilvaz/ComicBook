@@ -32,3 +32,11 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Pay-As-You-Go(8a7964fb-9714-4c07-8bff-a33f9502c1f0)'
+    appType: 'webApp'
+    WebAppName: 'ProyectoJVM'
+    VirtualApplication: 'ProyectoJVM'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
