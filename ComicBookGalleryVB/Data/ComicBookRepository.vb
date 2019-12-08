@@ -19,7 +19,7 @@ Namespace Data
             New ComicBook() With
                 {
                     .Id = 2,
-                    .SeriesTitle = "The Amazing Joss",
+                    .SeriesTitle = "The Amazing Josh",
                     .IssueNumber = 657,
                     .DescriptionHtml = "<p><strong>FF: THREE TIE-IN.</strong> Spider-Man visits the FF for a very private wake--just for family.</p>",
                     .Artists = New Artist() {New Artist() With {.Name = "Dan Slott", .Role = "Script"},
