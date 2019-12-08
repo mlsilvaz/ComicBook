@@ -1,7 +1,7 @@
 ﻿@modeltype ComicBookGalleryVB.Models.ComicBook()
 
 @Code
-    ViewBag.Title = "ComicBooks"
+    ViewBag.Title = "ComicBooks-UNMSM"
 End Code
 
 <h2>@ViewBag.Title</h2>
